@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=649
+
+chordpro.vim is a syntax file for files in the ChordPro format, a format for writing song lyrics with guitar chords.
+
+The format was originally defined by Martin Leclerc and Mario Dorion for use with their chord utility, a program for creating nice looking lyrics/chords in PostScript. The format has become the most popular method for exchanging chords on the Internet.
+
+ChordPro files typically has the extensions .chopro or .pro.
