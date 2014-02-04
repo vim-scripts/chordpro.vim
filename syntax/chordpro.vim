@@ -22,6 +22,8 @@ syn keyword ProDirWithOpt comment c comment_italic ci comment_box cb contained
 syn keyword ProDirWithOpt title t subtitle st define contained
 syn keyword ProDirWithOpt textfont textsize chordfont chordsize contained
 syn keyword ProDirWithOpt columns col contained
+syn keyword ProDirWithOpt key contained
+syn keyword ProDirWithOpt tags contained
 
 syn region ProTag matchgroup=ProBracket start=+{+ end=+}+ contains=ProDirective keepend oneline
 syn region ProTag matchgroup=ProBracket start=+{+ end=+:.\{-}}+ contains=ProDirWithOpt keepend oneline
